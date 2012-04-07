@@ -1,0 +1,5 @@
+/Volumes/dsumlin/.rvm/rubies/ruby-1.9.3-p0/bin/ruby extconf.rb 
+creating Makefile
+
+make
+Makefile:158: *** target pattern contains no `%'.  Stop.

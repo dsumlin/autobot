@@ -1,0 +1,19 @@
+<%= form_for(@micropost, :html => {:multipart => true}) do |f| %>
+  <%= f.file_field :banner %>
+	
+	<div class="field">
+		<%= f.text_area :content %>
+	</div>
+	<div class="actions">
+
+	<%= f.submit "Submit" %>
+	</div>
+	
+<section>
+
+
+
+<% end %>
+
+</section>
+
